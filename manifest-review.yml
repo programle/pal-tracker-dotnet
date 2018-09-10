@@ -6,4 +6,4 @@ applications:
   - route: ts-pal-tracker-review.apps.pikes.pal.pivotal.io
   env:
     WELCOME_MESSAGE: Hello from Cloud Foundry
-    
+     
