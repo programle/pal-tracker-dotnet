@@ -16,6 +16,7 @@ jobs:
 
               # Wait for MySQL to start
               sleep 5
+              
         - run:
             name: Install flyway
             command: |
