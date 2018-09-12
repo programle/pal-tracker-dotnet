@@ -6,11 +6,11 @@ namespace PalTrackerTests
 {
     public class OperationCounterTest
     {
-        private readonly OperationCounter<TimeEntry> _counter;
+        private readonly OperationCounter<TimeEntry, TrackedOperation> _counter;
 
         public OperationCounterTest()
         {
-            _counter = new OperationCounter<TimeEntry>();
+            _counter = new OperationCounter<TimeEntry, TrackedOperation>();
         }
 
         [Fact]
